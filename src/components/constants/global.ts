@@ -15,6 +15,7 @@ export const monthNames = [
 
 export const gender = ["Male", "Female", "Other"];
 export const bloodGroup = ["A+", "A-", "B+", "B-", "O+", "O-", "AB+", "AB-"];
+export const designation = ["Admin"];
 
 export const monthOptions = monthNames.map((month) => ({
   value: month,
@@ -26,6 +27,10 @@ export const genderOptions = gender.map((item) => ({
   label: item,
 }));
 export const bloodGroupOptions = bloodGroup.map((item) => ({
+  value: item,
+  label: item,
+}));
+export const designationOptions = designation.map((item) => ({
   value: item,
   label: item,
 }));
