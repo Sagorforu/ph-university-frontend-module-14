@@ -26,6 +26,40 @@ export type TStudent = {
   academicFaculty: TAcademicFaculty;
   fullName: string;
 };
+export type TAdmin = {
+  _id: string;
+  id: string;
+  user: TUser;
+  name: TName;
+  gender: string;
+  dateOfBirth: string;
+  email: string;
+  contactNo: string;
+  emergencyContactNo: string;
+  bloogGroup: string;
+  presentAddress: string;
+  permanentAddress: string;
+  profileImg: string;
+  isDeleted: boolean;
+  fullName: string;
+};
+export type TFaculty = {
+  _id: string;
+  id: string;
+  user: TUser;
+  name: TName;
+  gender: string;
+  dateOfBirth: string;
+  email: string;
+  contactNo: string;
+  emergencyContactNo: string;
+  bloogGroup: string;
+  presentAddress: string;
+  permanentAddress: string;
+  profileImg: string;
+  isDeleted: boolean;
+  fullName: string;
+};
 export type TLocalGuardian = {
   name: string;
   occupation: string;
